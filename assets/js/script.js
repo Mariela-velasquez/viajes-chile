@@ -10,3 +10,12 @@ $(function () {
         });
     });
   });
+
+// titulos en rojos (quienes somos)
+$( document ).ready( function (){
+    $( "h5" ).dblclick( function (){
+    $( this ).css({
+    "color" : "red" ,
+    });
+    });
+    });
