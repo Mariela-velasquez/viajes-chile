@@ -31,7 +31,7 @@
           <a class="nav-link" href="#quienesomos">QUIENES SOMOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">DESTACADOS</a>
+          <a class="nav-link" href="#destacados">DESTACADOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACTO</a>
@@ -67,7 +67,7 @@
 </header>
 <!--fin header-->
 <!--quienes somos-->
-<section class="container-fluit bg-gray text-center p-4" id="quienesomos">
+<section class="container-fluit bg-gray text-center p-4 d-none d-md-block d-lg-block" id="quienesomos">
   <h2 class="fw-bold pb-3 pt-5"> QUIENES SOMOS</h2>
   <hr class="linea mx-5" size="4" ></hr>
  
@@ -104,8 +104,170 @@
     </div>
 </section>
 <!--fin quienes somos-->
+<!--destacados-->
+<section class="container-fluit bg-gray text-left p-4" id="destacados">
+  <h2 class="fw-bold pb-3 pt-5 text-center"> DESTACADOS</h2>
+  <hr class="linea mx-5" size="4" ></hr>
+  <div class="row mx-lg-5 pt-5">
+    <div class="col-12 col-md-6 col-lg-3 p-3 py-3">
+      <div class="card">
+        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Parque Nacional Torres del Paine</h5>
+          <p class="card-text">Sea testigo de la belleza del Parque Nacional Torres del Paine en esta excursión de día completo desde Puerto Natales, 
+          que incluye el servicio de recogida en el hotel... </p>
+          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#paine">ver mas</button>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-12 col-md-6 col-lg-3 p-3 py-3">
+      <div class="card">
+        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reserva Nacional Los Flamencos</h5>
+          <p class="card-text">La unidad destaca por la protección de las especies de fauna como el tuco tuco de la puna, zorro culpeo, puma, vicuña y
+           guanaco. En lo que a flora se refiere el tamarugo...</p>
+           <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#reserva">ver mas</button>
+        </div>
+      </div>
+  </div>
 
+    <div class="col-12 col-md-6 col-lg-3 p-3 py-3">
+      <div class="card">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Parque Laguna Chaxa</h5>
+          <p class="card-text">La Laguna Chaxa es parte de la Reserva Nacional Los Flamencos , ubicada en medio del Salar de Atacama. Ubicado a 2300 msnm,
+           es un escenario de espectacular belleza donde... </p>
+           <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#chaxa">ver mas</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 p-3 py-3">
+      <div class="card">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> parque nacional Pumalín</h5>
+          <p class="card-text">El parque nacional Pumalín es un mundo. En la carrera por conocer la mayor parte posible de la Patagonia chilena, los visitantes 
+          suelen permanecer unos dos días en esta reserva...</p>
+          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#pumalin">ver mas</button>
+        </div>
+      </div>
+     </div>
+
+  </div>
+</section>
+<!--fin destacados-->
+<!--modal01-->
+<div class="modal fade" id="paine" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Parque Nacional Torres del Paine</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="assets/img/card1.jpg" class="img-fluid" alt="paine">
+      <p class="pt-4"> Sea testigo de la belleza del Parque Nacional Torres del Paine en esta excursión de día completo desde Puerto
+         Natales, que incluye el servicio de recogida en el hotel. Mantenga su cámara lista mientras pasa por un paisaje siempre 
+         cambiante de lagos, lagunas y glaciares resplandecientes, enmarcados por picos espectaculares y nevados. Embárquese en una 
+         corta caminata al Salto Grande y al Glaciar Grey; ver la laguna amarga; y manténgase atento a la vida silvestre nativa como
+         guanacos, rheas y cóndores.
+         Conocido internacionalmente por la belleza escénica de su entorno, recibe anualmente más de 280 000 visitantes,2 la mayoría 
+         de ellos extranjeros, convirtiéndose en la tercera área protegida chilena por visitas,3 Entre sus reconocimientos, en una edición 
+         especial de la revista National Geographic, las Torres del Paine fueron escogidas como el quinto lugar más hermoso del mundo</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin modal01-->
+<!--modal02-->
+<div class="modal fade" id="reserva" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Reserva Nacional Los Flamencos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="assets/img/card2.jpg" class="img-fluid" alt="Flamencos">
+      <p class="pt-4"> Con una superficie de 73986 hectáreas, la Reserva Nacional Flamenco cuenta con diversos atractivos para 
+        los visitantes, tales como montañas, salares, formaciones rocosas, lagunas, zonas arqueológicas y flora y fauna nativa. 
+        La reserva se divide en siete sectores conformados por el Salar de Tara, el Salar de Aguas Caliente, el Salar de Puisa,
+        las Lagunas Miscanti y Miñiques, el sector Soncor y Laguna Aguas de Quelana del Salar de Atacama, el Valle de la Luna y
+        Tambillo, ubicados a diferente altura. En cada uno de ellos las condiciones climáticas son particulares y, por lo tanto, 
+        poseen diferente población animal y vegetal. En el lugar, es posible encontrar una fauna constituida por vicuñas, zorros 
+        culpeo y gris, vizcachas, chinchillas, chululos, caitíes, glondrinas, halcones, pequenes, gaviotas andinas, ñandúes, cóndores, 
+        flamencos de James y chilenos, y otros. La fauna por su parte, se compone de llaretas, paja brava, breas, tolas de agua y amaja, 
+        cachiyuyos y tamarugos. En cada uno de ellos las condiciones climáticas son particulares y, por lo tanto, 
+        poseen diferente población animal y vegetal. En el lugar, es posible encontrar una fauna constituida por vicuñas, zorros 
+        culpeo y gris, vizcachas, chinchillas, chululos, caitíes, glondrinas, halcones, pequenes, gaviotas andinas, ñandúes, cóndores, 
+        flamencos de James y chilenos, y otros.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin modal02-->
+<!--modal03-->
+<div class="modal fade" id="chaxa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Parque Laguna Chaxa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="assets/img/card3.jpg" class="img-fluid" alt="chaxa">
+      <p class="pt-4"> La Laguna Chaxa es el mejor lugar de Chile para ver flamencos y se encuentra en el centro del Salar de Atacama.
+        La Laguna Chaxa se encuentra dentro del Salar de Atacama, a 60 kilómetros de San Pedro de Atacama y está dentro del Sistema de 
+        Protección de áreas silvestres de la CONAF, formando parte de la Reserva Nacional Los Flamencos.
+        La Laguna Chaxa es considerada uno de los mejores lugares de Chile para ver flamencos ya que no es una laguna profunda y le permite 
+        a estas aves alimentarse. Sin embargo, debido a las grandes oscilaciones de temperatura entre el día y la noche, no existe gran cantidad 
+        de flora y fauna, salvo algunas yerbas y pastos ubicados en las orillas del salar.La Laguna Chaxa es considerada uno de los mejores lugares de Chile para ver flamencos ya que no es una laguna profunda y le permite 
+        a estas aves alimentarse. Sin embargo, debido a las grandes oscilaciones de temperatura entre el día y la noche, no existe gran cantidad 
+        de flora y fauna, salvo algunas yerbas y pastos ubicados en las orillas del salar.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin modal03-->
+<!--modal04-->
+<div class="modal fade" id="pumalin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">parque nacional Pumalín</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="assets/img/card4.jpg" class="img-fluid" alt="pumalin">
+      <p class="pt-4"> ¿El parque nacional Pumalín es un mundo. En la carrera por conocer la mayor parte posible de la Patagonia chilena,
+         los visitantes suelen permanecer unos dos días en esta reserva de 402.000 hectáreas. Pero si el tiempo no apremia, descubrirlo 
+         con calma puede ser realmente apasionante, inspirador. Tiene 12 senderos de diferente nivel de dificultad —algunos apropiados incluso 
+         para ir con niños, como el Ranita de Darwin—, siete zonas para acampar, espacios de pícnic, varios miradores, cientos de cascadas y, en 
+         los alrededores, al menos tres termas. En Caleta Gonzalo, la entrada oeste, se puede encontrar un restaurante y hospedaje en las cabañas
+         construidas con maderas nativas y el mejor de los gustos, el de Douglas Tompkins, el filántropo estadounidense que soñó con salvar la 
+         Patagonia chilena y argentina del desastre ecológico. Fue Tompkins —fallecido en 2015 en un accidente en kayak en el gélido lago General
+        Carrera, en la región de Aysén— quien diseñó cada detalle de Pumalín, y desde este lugar construyó su imperio verde, que terminó donando al Estado chileno.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin modal04-->
 <!--jquery--> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!--scrip.js-->
