@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.bg-gray{
+    background-color: #f7f7f7;
+}
+.icono{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+.icono i{
+    margin-top: 2.5rem;
+}
