@@ -1,4 +1,4 @@
-//toltip//enviar a correo
+//toltip
 $(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();  
   });
