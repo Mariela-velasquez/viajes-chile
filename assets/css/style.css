@@ -4,6 +4,9 @@ body{
 .bg-gray{
     background-color: #f7f7f7;
 }
+.bg-blue{
+    background-color:#162344;
+}
 /*iconos de quienes somos*/
 .icono{
     height: 140px;
@@ -18,7 +21,7 @@ body{
 .card-img-top{
      height: 10em;
 }
-.bg-grayoscuro{
-    background-color: #12379e;
+/*color para los botones*/
+.btn-blue{
+    background-color: #162344;
 }
-
